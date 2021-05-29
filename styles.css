@@ -3,13 +3,159 @@ body {
   background-color: #313132;
 }
 
-.gamehub_logo heig .featured {
+.gamehub_logo {
   font-size: 1em;
   text-transform: uppercase;
   text-align: center;
   color: #ffff;
 }
 
-.nav_bar {
+.gamehub_logo {
+  width: 560px;
+  height: 340px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
   color: #ffff;
 }
+
+.featured {
+  color: #ffff;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.icons {
+  color: #ffff;
+  display: block;
+  margin-left: 70px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.games {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 100px;
+  max-height: 100px;
+  grid-gap: 55px;
+  margin-left: 496px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+/* Game Borders */
+
+.outriders {
+  border: 3px solid #ffff;
+  width: 240px;
+  height: auto;
+}
+
+.darksouls {
+  border: 3px solid #ffff;
+  width: 240px;
+  height: auto;
+}
+
+.horizon {
+  border: 3px solid #ffff;
+  width: 240px;
+  height: auto;
+}
+
+.astroneer {
+  border: 3px solid #ffff;
+  width: 240px;
+  height: auto;
+}
+
+.elderscrolls {
+  border: 3px solid #ffff;
+  width: 240px;
+  height: auto;
+}
+
+.spellforce {
+  border: 3px solid #ffff;
+  width: 240px;
+  height: auto;
+}
+
+/* Game Borders */
+
+/* Icons */
+
+.controller {
+  margin: 0 70px 0 0;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.cart {
+  margin: 0 70px 0 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.profile {
+  margin: 0 70px 0 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.search {
+  margin: 0 70px 0 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.whiteline {
+  border: none;
+  height: 1px;
+  color: #313132;
+  background-color: rgba(221, 221, 221, 0.253)
+}
+
+
+
+/* Icons */
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 700px;
+  max-height: auto;
+  grid-gap: 100px;
+  margin-left: 520px;
+  border-radius: 50px;
+}
+
+/* Button */
+.button {
+  background-color: #6fbf77;
+  border: none;
+  width: 200px;
+  color: #ffff;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: block-inline;
+  font-size: 16px;
+  border-radius: 12px;
+}
+
+.contact_button {
+  margin-right: 20px;
+}
+
+/* Button */
