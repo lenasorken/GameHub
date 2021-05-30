@@ -1,6 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #313132;
+  display: grid;
+  grid-template-areas: "games";
 }
 
 .gamehub_logo {
@@ -15,7 +17,7 @@ body {
   height: 340px;
   text-align: center;
   display: block;
-  margin-left: auto;
+  margin-left: 340px;
   margin-right: auto;
   text-transform: uppercase;
   color: #ffff;
@@ -29,23 +31,28 @@ body {
   font-style: normal;
   font-size: 20px;
   padding: 20px;
+  margin-left: 60px;
 }
 
 .icons {
   color: #ffff;
   display: block;
-  margin-left: 70px;
-  margin-right: auto;
+  grid-template-columns: 1fr;
+  max-width: 1000px;
+  margin: 5px auto;
+  grid-gap: 10px;
   text-align: center;
+  margin-right: 360px;
 }
 
 .games {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: (auto, 1fr);
   max-width: 100px;
   max-height: 100px;
   grid-gap: 55px;
-  margin-left: 496px;
+  margin-left: 535px;
   text-align: center;
 }
 
@@ -123,20 +130,18 @@ h1 {
   border: none;
   height: 1px;
   color: #313132;
-  background-color: rgba(221, 221, 221, 0.253)
+  background-color: rgba(221, 221, 221, 0.253);
 }
-
-
 
 /* Icons */
 
 footer {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  flex-direction: row ltr;
   max-width: 700px;
   max-height: auto;
   grid-gap: 100px;
-  margin-left: 520px;
+  margin-left: 565px;
   border-radius: 50px;
 }
 
@@ -158,4 +163,201 @@ footer {
   margin-right: 20px;
 }
 
-/* Button */
+/*  Mobile  */
+
+@media only screen and (max-width: 599px) {
+  .gamehub_logo {
+    width: 560px;
+    height: 340px;
+    text-align: center;
+    display: block;
+    margin-left: 60px;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: #ffff;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .featured {
+    margin-right: 220px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    text-align: center;
+    margin-left: 280px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (auto, 1fr);
+    max-width: auto;
+    max-height: auto;
+    text-align: center;
+    grid-gap: 55px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .footer {
+    display: flex;
+    flex-direction: row ltr;
+    max-width: 700px;
+    max-height: auto;
+    grid-gap: 100px;
+    margin-left: 520px;
+    border-radius: 50px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .button {
+    background-color: #6fbf77;
+    border: none;
+    color: #ffff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block-inline;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .create_button {
+    position: absolute;
+    left: 555px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .install_button {
+    position: absolute;
+    left: 355px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .contact_button {
+    position: absolute;
+    left: 155px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .break {
+    height: 280px;
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .break {
+    height: 280px;
+    visibility: hidden;
+  }
+}
+
+/*  Mobile  */
+
+/*  Tablet  */
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .featured {
+    margin-right: 210px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .gamehub_logo {
+    width: 560px;
+    height: 340px;
+    text-align: center;
+    display: block;
+    margin-left: 75px;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: #ffff;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (auto, 1fr);
+    text-align: center;
+    margin-left: 290px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .games {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: (auto, 1fr);
+    max-width: auto;
+    max-height: auto;
+    text-align: center;
+    grid-gap: 55px;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .button {
+    background-color: #6fbf77;
+    border: none;
+    color: #ffff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block-inline;
+    font-size: 16px;
+    border-radius: 12px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .create_button {
+    position: absolute;
+    left: 555px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .install_button {
+    position: absolute;
+    left: 355px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .contact_button {
+    position: absolute;
+    left: 155px;
+    width: 150px;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .break {
+    height: 280px;
+    visibility: hidden;
+  }
+}
+/*  Tablet  */
