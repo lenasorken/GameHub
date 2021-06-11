@@ -1,0 +1,44 @@
+.create {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(206, 206, 206);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10,;
+}
+
+.name,
+.username,
+.password,
+.email,
+.confirm_email {
+    height: 100px;
+    flex: 50%;
+    text-align: center;
+}
+
+.name {
+}
+
+.username {
+    margin-bottom: 20px;
+}
+
+.password {
+
+}
+
+.email{
+    margin-bottom: 20px;
+    margin-left: 3;
+}
+
+.confirm_email{
+    margin-left: 300px;
+}
+
+.sign {
+
+}
