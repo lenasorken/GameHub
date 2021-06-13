@@ -100,3 +100,78 @@ p {
     opacity: 0.2;
 }
 
+.total_mobile {
+    display: none;
+}
+
+.back_button {
+    margin-left: 100px;
+}
+
+
+
+@media only screen and (min-width: 374px) and (max-width: 1000px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 375px;
+    }
+
+    .days_price,
+    .nier_price {
+        display: none;
+    }
+    
+    .total {
+        display: none
+    }
+
+    .total_mobile {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        width: auto;
+    }
+
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 375px;
+    }
+
+    .days_price,
+    .nier_price {
+        display: none;
+    }
+    
+    .total {
+        display: none
+        
+    }
+
+    .total_mobile {
+        display: flex;
+        font-size: 20px;
+    }
+
+    .line1,
+    .line2,
+    .line3 {
+        width: auto;
+    }
+
+}

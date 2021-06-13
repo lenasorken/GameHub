@@ -9,54 +9,81 @@
     content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>GameHub | List of Games</title>
   <link href="../css/styles.css" rel="stylesheet" />
-  <link href="../css/icons/games.css" rel="stylesheet" />
+  <link href="../css/games.css" rel="stylesheet" />
 </head>
 
 <body>
   <nav>
     <ul class="back_button">
-      <a href="index.html">Back</a></li>
+      <a href="../index.html">Back</a></li>
     </ul>
   </nav>
-  <header>Browse and discover games</header>
+  <header>
+  <h1 class="browse_header">Browse and discover games</h1>
+  </header>
 
-  <main>
-    <div>
+  <main class="list_games">
+    <div class="button_category">
       <br>
       </a>
-      <button name="top sellers" type="button" class="buttons_games">
+      <button name="top sellers" type="button" class="buttons_games buttons_games_top">
         Top sellers
       </button>
       </a>
       </a>
-      <button name="new releases" type="button" class="buttons_games">
+      <button name="new releases" type="button" class="buttons_games buttons_games_new">
         New releases
       </button>
       </a>
       </a>
-      <button name="categories" type="button" class="buttons_games">
+      <button name="categories" type="button" class="buttons_games buttons_games_cat">
         Categories
       </button>
       </a>
       </a>
-      <button name="best rated" type="button" class="buttons_games">
+      <button name="best rated" type="button" class="buttons_games buttons_games_best">
         Best rated
       </button>
       </a>
     </div>
 
-
     <div class="games">
-      <hr>
-        <img src="../images/games-outriders" alt=outriders class="outriders">
-      <hr>
-        <img src="../images/games-horizon" alt="horizon zero dawn" class="horizon">
-      <hr>
-        <img src="../images/darksouls" alt="dark souls" class="dark_souls">
-      <hr>
-        <img src="../images/games-elderscrolls" alt="elder scrolls" class="elder">
+      <hr class="line">
+      <div class="outrider">
+        <img src="../images/games-outriders" alt=outriders class="outriders_img">
+        <p class="outriders_text">Outriders’ brutal and bloody combat combines
+          frenetic gunplay, violent powers and deep RPG
+          systems to create a true genre hybrid.</p>
+      </div>
+
+      <hr class="line">
+      <div class="horizon">
+        <img src="../images/games-horizon" alt="horizon zero dawn" class="horizon_img">
+        <p class="horizon_text"> Experience Aloy’s legendary quest to unravel the
+          mysteries of a future Earth ruled by Machines. Use 
+          devastating tactical attacks against your prey and 
+          explore a majestic open world! </p>
+      </div>
+
+      <hr class="line">
+      <div class="dark_souls">
+        <a href="../gamepage.html" alt="gamepage">
+        <img src="../images/games-darksouls" alt="dark souls" class="dark_souls_img"></a>
+        <p class="souls_text">Dark Souls will be the most deeply challenging game
+          you play this year. Can you live through a million
+          deaths and earn your legacy?</p>
+      </div>
+
+      <hr class="line">
+      <div class="elder">
+        <img src="../images/games-elderscrolls" alt="elder scrolls" class="elder_img">
+        <p class="elder_text">Join over 18 million players in the award-winning 
+          online multiplayer RPG and experience limitless 
+          adventure in a persistent Elder Scrolls world. Battle, 
+          craft, steal, or explore, and combine different types of
+          equipment!</p>
+      </div>
     </div>
   </main>
 </body>
-
 </html>

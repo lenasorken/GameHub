@@ -11,12 +11,14 @@ body {
   color: #ffff;
   padding: 5px 15px;
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1em;
   font-family: Arial, Helvetica, sans-serif;
-  
+  font-weight: 600;
 }
 
-a:link {
-  text-decoration: none;
-  color: #ffff;
-}
+a:link {color: #ffff; text-decoration: none;}  
+a:visited {color: #ffff; text-decoration: none; }  
+a:hover {color: #ffff; text-decoration: underline;}  
+
+a:active {color: #ffff; }  
+

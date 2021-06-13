@@ -7,18 +7,22 @@ h1 {
 }
 
 body {
-    margin-left: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
     margin-right: auto;
 }
 
-.checkout_header {
-    margin-right: 800px;
-}
-
-.paymentmethod {
+.paymentmethod,
+.paymentmethod_pay {
     max-width: 76px;
     max-height: 45px;
     
+}
+
+.back_button {
+    margin-right: 1500px;
 }
 
 /*   Games   */
@@ -27,15 +31,17 @@ body {
     color: #ffff;
     background-color: rgb(184, 182, 182);
     max-width: 700px;
-    
-    
 }
 
 .create2 {
     color: #ffff;
     background-color: rgb(184, 182, 182);
-    max-width: 700px;
-    
+    width: 700px;
+}
+
+.days_name,
+.nier_name {
+    margin-left: 50px;
 }
 
 .nier {
@@ -89,6 +95,13 @@ body {
 
 /*   Payment   */
 
+.payment_method {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0px;
+    margin-left: 50px;
+}
+
 .payment_card {
     display: flex;
 }
@@ -98,25 +111,130 @@ body {
 }
 
 .cardholder {
-}
-
-.cardholder,
-.card_number {
-    display: flex;
+    max-width: 150px;
 }
 
 .card_number {
-    margin-left: 70px;
-}
-
-.cvc_box {
-    display: flex;
-    margin-left: 70px;
+    max-width: 150px;
 }
 
 .card_expire {
-    display: flex;
+    max-width: 150px;
+    margin-right: 190px;
+}
+
+.cvc_box {
+    max-width: 150px;
+}
+
+.total_mobile,
+.total_mobile_text,
+.total_mobile_price {
+    display: none;
 }
 
 .checkout_button {
+    background-color: #6fbf77;
+    border: solid 0.1;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 12px;
+    margin: 10px 10px 10px 10px;
+    margin-left: 200px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 599px) {
+
+    .back_button {
+        margin-right: 0px;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .create {
+        color: #ffff;
+        background-color: rgb(184, 182, 182);
+        max-width: 375px;
+    }
+    
+    .create2 {
+        color: #ffff;
+        background-color: rgb(184, 182, 182);
+        width: 375px;
+    }
+    
+    .days_name,
+    .nier_name {
+        margin-left: 50px;
+    }
+    
+    .nier {
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+    
+    .days {
+        display: flex;
+        align-items: center;
+        height: 100px;
+    }
+    
+    .total_mobile,
+    .total_mobile_text,
+    .total_mobile_price {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+    }
+
+    .total_text {
+        margin-right: 5px;
+        text-align: left;
+        display: none;
+
+    }
+    
+    .total_price {
+        margin-right: 0px;
+        text-align: left;
+        display: none;
+    }
+    
+    .nier_price {
+        margin-left: 20px;
+        text-align: left;
+    }
+    
+    .days_price {
+        margin-left: 80px;
+        text-align: left;
+    }
+
+    /*   Payment   */
+    
+    .payment_card {
+        display: flex;
+    }
+    
+    .paypal {
+        margin-left: 70px;
+    }
+    
+    .card_expire {
+        max-width: 150px;
+        margin-right: 0px;
+    }
+    
+    .cvc_box {
+        max-width: 150px;
+    }
+
+    .checkout_button {
+        margin-left: 0px;
+    }
 }

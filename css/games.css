@@ -1,47 +1,218 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffff;
+  font-weight: lighter;
+  font-size: 2.3em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.back_button {
+  margin-left: 100px;
+}
+
+/*  Buttons  */
+
+.list_games {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.games {
+  text-align: center;
+}
+
 .buttons_games {
     text-align: center;
     color: #ffff;
-    background-color: navy;
+    background-color: rgba(0, 0, 128, 0.398);
     padding: 15px 32px;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    font-style: italic;
+    width: 190px;
+    height: 50px;
+    font-size: 20px;
 }
 
+.buttons_games_top,
+.buttons_games_new,
+.buttons_games_cat,
+.buttons_games_best {
+  display: inline-block;
+  margin-left: 80px;
+  padding: 0px 0px 0px 0px;
+}
 
+.button_category {
+  text-align: center;
+}
+
+/*  Games  */
 
 .games {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: (auto, 1fr);
-    max-width: 100px;
-    max-height: 100px;
-    grid-gap: 55px;
-    margin-left: 535px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.outriders {
-    border: 3px solid #ffff;
-    width: 240px;
-    height: auto;
-  }
-  
-.dark_souls {
-    border: 3px solid #ffff;
-    width: 240px;
-    height: auto;
-  }
-  
-.horizon {
-    border: 3px solid #ffff;
-    width: 240px;
-    height: auto;
-  }
-  
+.outrider,
+.horizon,
+.dark_souls,
 .elder {
-    border: 3px solid #ffff;
-    width: 240px;
-    height: auto;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+.outriders_img,
+.horizon_img,
+.dark_souls_img,
+.elder_img {
+  max-width: 170px;
+  border: 3px solid #ffff;
+}
+
+.outriders_text,
+.horizon_text,
+.souls_text,
+.elder_text {
+  text-align: left;
+  color: #fefefe;
+  font-size: 20px;
+  max-width: 600px;
+  margin-left: 140px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.line {
+  width: 1300px;
+  opacity: 0.2;
+}
+
+@media only screen and (min-width: 599px) {
+  .back_button {
+    margin-left: 10px;
   }
+
+  .browse_header {
+    text-align: center;
+    font-size: 1.7em;
+    margin-right: 0px;
+  }
+
+  .buttons_games {
+    margin-right: 80px;
+  }
+
+  .games {
+    max-width: 599px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .outrider,
+  .horizon,
+  .dark_souls,
+  .elder {
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 30px
+  } 
+
+  .outriders_text {
+    margin-left: 0px;
+    max-width: 250px;
+  }
+
+  .horizon {
+    gap: 10px
+  }
+
+  .horizon_text {
+    max-width: 270px;
+  }
+
+  .souls_text {
+    margin-left: 0px;
+    max-width: 250px;
+  }
+
+  .elder_text {
+    margin-left: 00px;
+    max-width: 250px;
+  }
+  
+  .line {
+    width: 599px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+
+  .back_button {
+    margin-left: 10px;
+  }
+
+  .browse_header {
+    text-align: center;
+    font-size: 1.7em;
+    margin-right: 0px;
+  }
+
+  .buttons_games {
+    margin-right: 80px;
+  }
+
+  .games {
+    max-width: 599px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .outrider,
+  .horizon,
+  .dark_souls,
+  .elder {
+    height: 200px;
+    margin-left: 0px;
+    margin-right: 0px;
+  } 
+
+  .outriders_text {
+    margin-left: 0px;
+    max-width: 250px;
+  }
+
+  .horizon {
+    margin-left: 0px;
+  }
+
+  .horizon_text {
+    margin-left: 00px;
+    max-width: 270px;
+  }
+
+  .souls_text {
+    margin-left: 0px;
+    max-width: 250px;
+  }
+
+  .elder_text {
+    margin-left: 00px;
+    max-width: 250px;
+  }
+  
+  .line {
+    width: 375px;
+  }
+}

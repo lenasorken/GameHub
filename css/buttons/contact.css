@@ -40,7 +40,7 @@
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-    display: block-inline;
+    display: inline-block;
     font-size: 25px;
     text-transform: uppercase;
 }
@@ -53,13 +53,14 @@
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-    display: block-inline;
+    display: inline-block;
     font-size: 25px;
     text-transform: uppercase;
-
+    margin-bottom: 5px;
 }
 
 .game_button {
+    margin-bottom: 5px;
     background-color: #1f1f1f;
     border: none;
     width: 500px;
@@ -67,7 +68,7 @@
     padding: 10px 15px;
     text-align: center;
     text-decoration: none;
-    display: block-inline;
+    display: inline-block;
     font-size: 25px;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
@@ -82,4 +83,32 @@
     color: #fefefe;
     font-size: 1em;
     
+}
+
+@media (min-width: 300px) {
+    .search,
+    .all_button {
+        min-width: 300px;
+    }
+    .line {
+        width: auto;
+    }
+
+    .game_button,
+    .account_button,
+    .purchase_button {
+        width: 300px;
+    }
+    
+    .back_button {
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 600px) {
+    .game_button,
+    .account_button,
+    .purchase_button {
+        width: 500px;
+    }
 }

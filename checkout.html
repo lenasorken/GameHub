@@ -39,6 +39,11 @@
 
     <hr class="line3">
 
+    <div class="total_mobile">
+      <p class="total_mobile_text">TOTAL:</p>
+      <p class="total_mobile_price">$64.98</p>
+    </div>
+
     <div class="total">
       <p class="total_text">TOTAL:</p>
       <p class="total_price">$64.98</p>
@@ -49,7 +54,6 @@
 
     <p>Payment Method:</p>
 
-
     <form class="pay">
       <label>
         <div class="payment_card">
@@ -57,9 +61,11 @@
             <input type="checkbox" class="radio_credit" value="fooby[1][]" />Credit Card
       </label>
       <br>
-      <img src="images/visa.png" class="paymentmethod">
-      <img src="images/mastercard.png" class="paymentmethod">
-      <img src="images/americanexpress.png" class="paymentmethod">
+      <div pay_cards>
+        <img src="images/visa.png" class="paymentmethod">
+        <img src="images/mastercard.png" class="paymentmethod">
+        <img src="images/americanexpress.png" class="paymentmethod">
+      </div>
       </div>
       <br>
       <div class="paypal">
@@ -67,40 +73,42 @@
           <input type="checkbox" class="radio_pay" value="fooby[1][]" />Paypal
         </label>
         <br>
-        <img src="images/paypal.png" class="paymentmethod">
+        <img src="images/paypal.png" class="paymentmethod_pay">
       </div>
       </div>
     </form>
-
-
-
     <br>
     <br>
-
     <form method="POST"></form>
-    <div class="cardholder">
-      <label for="name">Card Holder:</label>
+  <section class="payment_method">
+    <section class="cards">
+      <div class="cardholder">
+        <label for="name">Card Holder:</label>
+        <input type="text" id="card holder" name="card holder" class="cardholder" />
+      </div>
       <br>
-      <input type="text" id="card holder" name="card holder" />
       <div class="card_number">
         <label for="name">Card Account No:</label>
-        <br>
-        <input type="text" id="card account no" name="card account no" />
       </div>
-    </div>
-    <div class="card_expire">
-      <label for="name">Card Expire Date:</label>
-      <input type="text" id="name" name="name" />
+        <input type="text" id="card account no" name="card account no" class="card_number" />
+    </section>
+    <br>
+    <br>
+    <section class="cards_2">
+      <div class="card_expire">
+        <label for="name">Card Expire Date:</label>
+      </div>
+        <input type="text" id="name" name="name" class="card_expire"/>
+      <br>
       <div class="cvc_box">
-        <label for="name">CVC:</label>
-        <input type="text" id="name" name="name" />
-      </div>
-      <section class="checkout_button">
-        <div class="checkout_button">
-          <form action="checkoutsuccess.html">
-            <input type="submit" value="Checkout Complete">
-        </div>
-      </section>
+      <br>
+        <label for="CVC">CVC:</label>
+      </div> 
+        <input type="text" id="CVC" name="CVC" class="cvc_box" />
+        <form action="checkoutsuccess.html">
+        <input type="submit" value="Checkout Complete" class="checkout_button">
+        <br>
+  </section>
 </body>
 
 </html>

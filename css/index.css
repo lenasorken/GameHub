@@ -196,24 +196,18 @@
       text-transform: uppercase;
       color: #ffff;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+    
     .featured {
       margin-right: 220px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .icons {
       display: grid;
       grid-template-columns: repeat(2, 2fr);
       text-align: center;
       margin-left: 280px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .games {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -224,9 +218,7 @@
       grid-gap: 55px;
       margin-left: 150px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .footer {
       display: flex;
       flex-direction: row ltr;
@@ -236,9 +228,7 @@
       margin-left: 520px;
       border-radius: 50px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .button {
       background-color: #6fbf77;
       border: none;
@@ -250,40 +240,30 @@
       font-size: 16px;
       border-radius: 12px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .create_button {
       position: absolute;
       left: 555px;
       width: 150px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .install_button {
       position: absolute;
       left: 355px;
       width: 150px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .contact_button {
       position: absolute;
       left: 155px;
       width: 150px;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .break {
       height: 280px;
       visibility: hidden;
     }
-  }
-  
-  @media only screen and (max-width: 599px) {
+
     .break {
       height: 280px;
       visibility: hidden;
@@ -291,16 +271,14 @@
   }
   
   /*  Mobile  */
-  
+ 
   /*  Tablet  */
   
   @media only screen and (min-width: 600px) and (max-width: 992px) {
     .featured {
       margin-right: 210px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .gamehub_logo {
       width: 560px;
       height: 340px;
@@ -311,9 +289,7 @@
       text-transform: uppercase;
       color: #ffff;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .icons {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -321,9 +297,7 @@
       text-align: center;
       margin-left: 290px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .games {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -334,9 +308,7 @@
       grid-gap: 55px;
       margin-left: 150px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .button {
       background-color: #6fbf77;
       border: none;
@@ -348,37 +320,29 @@
       font-size: 16px;
       border-radius: 12px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .create_button {
       position: absolute;
       left: 555px;
       width: 150px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .install_button {
       position: absolute;
       left: 355px;
       width: 150px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .contact_button {
       position: absolute;
       left: 155px;
       width: 150px;
     }
-  }
-  
-  @media only screen and (min-width: 600px) and (max-width: 992px) {
+
     .break {
       height: 280px;
       visibility: hidden;
     }
   }
-  /*  Tablet  */
+
   

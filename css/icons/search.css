@@ -1,0 +1,68 @@
+.search_topic {
+    font-size: 1.5em;
+    color: #fefefe;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.searchbar {
+    width: 200px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 1000px;
+    opacity: 0.1;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.gamehub_logo {
+    display: flex;
+    align-items: center;
+    width: 560px;
+    height: 340px;
+    display: block;
+    margin-left: 320px;
+    margin-right: auto;
+    text-transform: uppercase;
+    color: #ffff;
+  }
+
+  .back_button {
+    margin-left: 100px;
+  }
+
+
+  @media only screen and (min-width: 375px) and (max-width: 599px) {
+      body {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          max-width: 375px;
+      }
+
+      .line {
+          width: auto;
+      }
+
+      .back_button {
+          margin-left: 0px;
+      }
+
+      .gamehub_logo {
+          display: flex;
+          flex-direction: column;
+          width: 275px;
+          height: 170px;
+          margin-left: 20px;
+      }
+  }
