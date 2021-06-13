@@ -1,12 +1,30 @@
+h1,
+h2 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: #ffff
+}
+
+.account_h1 {
+    text-align: center;
+    color: #fefefe;
+    font-weight: lighter;
+    padding-bottom: 50px;
+}
+
+/*   Create Account   */
+
 .create {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(206, 206, 206);
-    max-width: 700px;
+    background-color: rgb(129, 129, 129);
+    max-width: 490px;
     margin-left: auto;
     margin-right: auto;
-    gap: 10,;
+    padding: 10px 100px 10px 100px;
+    max-height: 1000px;
 }
 
 .name,
@@ -16,29 +34,109 @@
 .confirm_email {
     height: 100px;
     flex: 50%;
-    text-align: center;
-}
-
-.name {
-}
-
-.username {
-    margin-bottom: 20px;
+    color: #fefefe;
+    font-weight: lighter;
 }
 
 .password {
+    margin-right: 370px;
+}
+.checkbox {
+    margin-top: 30px;
+    max-width: 140px;
+}
+
+.list_game {
+    text-align: center;
+    color: #fefefe;
+    font-weight: lighter;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/*   List Game   */
+
+.select {
+    background-color: rgb(129, 129, 129);
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 100px 10px 100px;
+    max-height: 1000px;
+}
+
+.game_name{
+    color: #fefefe;
+    max-width: 150px;
+}
+
+.game_select {
+    max-width: 150px;
+}
+
+.game_name,
+.game_price,
+.game_select,
+.name_price,
+.submit {
+    margin-left: 150px;
+    margin-right: auto;
 
 }
 
-.email{
-    margin-bottom: 20px;
-    margin-left: 3;
+.game_select {
+    width: 200px;
+    height: 25px;
 }
 
-.confirm_email{
-    margin-left: 300px;
+.name_price {
+    color: #fefefe;
 }
 
-.sign {
+.submit {
+    max-width: 70px;
+}
 
+.currency,
+.game_price {
+    max-width: 50px;
+}
+
+/*   Button   */
+
+.submit {
+    background-color: #29aa29;
+    border: none;
+    color: #ffff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block-inline;
+}
+
+.signup {
+    background-color: #4fce4f;
+    border: none;
+    width: 100px;
+    color: #ffff;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+.back_button {
+    background-color: #5e5e5e;
+    width: 100px;
+    color: #ffff;
+    padding: 5px 15px;
+    text-align: center;
+    font-size: 1.4em;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: #ffff;
 }

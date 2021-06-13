@@ -10,33 +10,54 @@
 </head>
 <header>
     <nav>
-        <ul>
-        <a href="../index.html">Back</a></li>
+        <ul class="back_button">
+            <a href="../index.html">Back</a></li>
         </ul>
       </nav>
-    <h2>Contact</h2>
-    <p>What do you need help with?</p>
 </header>
-<body>
-<p>Search for a topic:</p>
-<form method="POST" class="searchbar"></form>
-<label for="search"></label>
-<input type="text" id="search" name="search" />
-<hr>
+<body class="search">
+
+    <h2 class="contact_header">Contact</h2>
+    <p class="contact_help">What do you need help with?</p>
+
+    <p class="search_topic">Search for a topic:</p>
+    
+        <form method="POST" class="searchbar"></form>
+        <label for="search"></label>
+    
+    <input type="text" id="search" name="search" />
+    <br>
+    <hr class="line">
+    <br>
 </body>
-<button name="games_and_software" type="button" class="button">
-    Games / Software
-    </button>
-    </a>
-    <button name="my_account" type="button" class="button">
-        My Account
+
+<main class="all_button">
+    <div class="game_button">
+        <button name="games_and_software" type="button" class="game_button">
+            Games / Software
         </button>
         </a>
-        <button name="purchase_and_selling" type="button" class="button">
+    </div>    
+    <br>
+    <div class="account_button">
+        <button name="my_account" type="button" class="account_button">
+            My Account
+        </button>
+        </a>
+    </div>
+    <br>
+    <div class="purchase_button">
+        <button name="purchase_and_selling" type="button" class="purchase_button">
             Purchase / Selling
-            </button>
-            </a>
-<hr>
+        </button>
+        </a>
+    </div>
+</main>
+
+<br>
+<hr class="line">
+<br>
+
 <footer>
-<p>Or contact us directly at: GameHub@contact.com</p>
+<p class="contact_here">Or contact us directly at: GameHub@contact.com</p>
 </footer>

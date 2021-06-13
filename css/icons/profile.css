@@ -1,3 +1,4 @@
+/*
 main {
     display: flex; 
     flex-direction: row;
@@ -6,9 +7,34 @@ main {
     margin: 0px;
     flex-wrap: wrap;
     flex-flow: row wrap;
-    position: relative;
-    
+    position: relative;  
 }
+*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+
+}
+
+.profile {
+  display: flex;
+  margin-left: 835px;
+  width: 200px;
+  height: 200px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  margin-left: 480px;
+}
+
+main {
+  flex: 50%;
+  flex-wrap: wrap;
+}
+
   section {
 
     padding: 20px;
@@ -28,5 +54,5 @@ main {
     color: #ffff;
     text-align: center;
     margin: 50px;
-}
 
+}

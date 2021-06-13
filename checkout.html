@@ -1,23 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width-device-width, initial-scale=1.0" />
-        <meta name="description" content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
-        <title>GameHub | Checkout</title>
-        <link href="css/styles.css" rel="stylesheet" />
-        <link href="css/checkout.css" rel="stylesheet" />
-    </head>
+
+<head>
+  <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
+  <title>GameHub | Checkout</title>
+  <link href="css/styles.css" rel="stylesheet" />
+  <link href="css/checkout.css" rel="stylesheet" />
+</head>
+<header>
+  <nav>
+    <ul class="back_button">
+      <a href="../index.html">Back</a></li>
+    </ul>
+  </nav>
+  <h1 class="checkout_header">Check Out</h1>
+</header>
+
 <body>
-    <header>
-        <nav>
-          <ul>
-          <a href="../index.html">Back</a></li>
-          </ul>
-        </nav>
-      </header>
+  <section class="create">
+    <div class="nier">
+      <img src="images/nier.png" class="checkoutimages">
+      <p class="nier_name">NieR:Automata</p>
+      <p class="nier_price">$39.99</p>
+    </div>
+
+    <hr class="line2">
+
+    </div>
+    <div class="days">
+      <img src="images/7daystodie.png" class="checkoutimages">
+      <p class="days_name"> 7 Days-to Die</p>
+      <p class="days_price">$24.99</p>
+    </div>
+
+    <hr class="line3">
+
+    <div class="total">
+      <p class="total_text">TOTAL:</p>
+      <p class="total_price">$64.98</p>
+    </div>
+  </section>
+  <br>
+  <section class="create2">
+
+    <p>Payment Method:</p>
 
 
-  </body>
+    <form class="pay">
+      <label>
+        <div class="payment_card">
+          <div class="credit_card">
+            <input type="checkbox" class="radio_credit" value="fooby[1][]" />Credit Card
+      </label>
+      <br>
+      <img src="images/visa.png" class="paymentmethod">
+      <img src="images/mastercard.png" class="paymentmethod">
+      <img src="images/americanexpress.png" class="paymentmethod">
+      </div>
+      <br>
+      <div class="paypal">
+        <label>
+          <input type="checkbox" class="radio_pay" value="fooby[1][]" />Paypal
+        </label>
+        <br>
+        <img src="images/paypal.png" class="paymentmethod">
+      </div>
+      </div>
+    </form>
+
+
+
+    <br>
+    <br>
+
+    <form method="POST"></form>
+    <div class="cardholder">
+      <label for="name">Card Holder:</label>
+      <br>
+      <input type="text" id="card holder" name="card holder" />
+      <div class="card_number">
+        <label for="name">Card Account No:</label>
+        <br>
+        <input type="text" id="card account no" name="card account no" />
+      </div>
+    </div>
+    <div class="card_expire">
+      <label for="name">Card Expire Date:</label>
+      <input type="text" id="name" name="name" />
+      <div class="cvc_box">
+        <label for="name">CVC:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <section class="checkout_button">
+        <div class="checkout_button">
+          <form action="checkoutsuccess.html">
+            <input type="submit" value="Checkout Complete">
+        </div>
+      </section>
+</body>
+
 </html>

@@ -1,0 +1,122 @@
+h1 {
+    color: #ffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body {
+    margin-left: 1000px;
+    margin-right: auto;
+}
+
+.checkout_header {
+    margin-right: 800px;
+}
+
+.paymentmethod {
+    max-width: 76px;
+    max-height: 45px;
+    
+}
+
+/*   Games   */
+
+.create {
+    color: #ffff;
+    background-color: rgb(184, 182, 182);
+    max-width: 700px;
+    
+    
+}
+
+.create2 {
+    color: #ffff;
+    background-color: rgb(184, 182, 182);
+    max-width: 700px;
+    
+}
+
+.nier {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.days {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+.total_text {
+    margin-right: 465px;
+    text-align: left;
+}
+
+.total_price {
+    margin-right: 400px;
+    text-align: left;
+}
+
+.nier_price {
+    margin-left: 300px;
+    text-align: left;
+}
+
+.days_price {
+    margin-left: 300px;
+    text-align: left;
+}
+
+.nier,
+.days,
+.total {
+    background-color: rgb(184, 182, 182);
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 1000px;
+    padding: 15px 50px 0px 20px;
+}
+
+/*   Payment   */
+
+.payment_card {
+    display: flex;
+}
+
+.paypal {
+    margin-left: 300px;
+}
+
+.cardholder {
+}
+
+.cardholder,
+.card_number {
+    display: flex;
+}
+
+.card_number {
+    margin-left: 70px;
+}
+
+.cvc_box {
+    display: flex;
+    margin-left: 70px;
+}
+
+.card_expire {
+    display: flex;
+}
+
+.checkout_button {
+}

@@ -1,0 +1,85 @@
+/*   Search   */
+.back_button {
+    margin-right: 1000px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_header {
+    font-size: 1.5em;
+    color: #fefefe;
+    font-weight: lighter;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.contact_help {
+    font-size: 1.1em;
+    color: #fefefe;
+    font-weight: lighter;
+    align-items: center;
+}
+
+.search_topic {
+    font-size: 0.9em;
+    color: #fefefe;
+    font-weight: lighter;
+    align-items: center;
+    
+}
+
+.purchase_button {
+    background-color: #1f1f1f;
+    border: none;
+    width: 500px;
+    color: #ffff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block-inline;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.account_button {
+    background-color: #1f1f1f;
+    border: none;
+    width: 500px;
+    color: #ffff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block-inline;
+    font-size: 25px;
+    text-transform: uppercase;
+
+}
+
+.game_button {
+    background-color: #1f1f1f;
+    border: none;
+    width: 500px;
+    color: #ffff;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: block-inline;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    width: 1000px;
+    opacity: 0.1;
+}
+
+.contact_here {
+    color: #fefefe;
+    font-size: 1em;
+    
+}

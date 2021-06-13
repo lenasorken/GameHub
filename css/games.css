@@ -1,0 +1,47 @@
+.buttons_games {
+    text-align: center;
+    color: #ffff;
+    background-color: navy;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.games {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: (auto, 1fr);
+    max-width: 100px;
+    max-height: 100px;
+    grid-gap: 55px;
+    margin-left: 535px;
+    text-align: center;
+}
+
+.outriders {
+    border: 3px solid #ffff;
+    width: 240px;
+    height: auto;
+  }
+  
+.dark_souls {
+    border: 3px solid #ffff;
+    width: 240px;
+    height: auto;
+  }
+  
+.horizon {
+    border: 3px solid #ffff;
+    width: 240px;
+    height: auto;
+  }
+  
+.elder {
+    border: 3px solid #ffff;
+    width: 240px;
+    height: auto;
+  }
