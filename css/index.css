@@ -1,20 +1,30 @@
- .gamehub_logo {
-    font-size: 1em;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffff;
-  }
-  
-  .gamehub_logo {
-    width: 560px;
-    height: 340px;
-    text-align: center;
-    display: block;
-    margin-left: 340px;
-    margin-right: auto;
-    text-transform: uppercase;
-    color: #ffff;
-  }
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30%;
+  background-color: #2a365e52;
+  box-shadow: 0px 0px 7px #242e4e52;
+  font-size: 20px;
+}
+
+nav > a {
+  max-width: 10em;
+}
+
+#logo > img {
+  width: 100%;
+}
+
+.navlinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30%;
+  list-style-type: none;
+}
+
   
   .featured {
     color: #ffff;
