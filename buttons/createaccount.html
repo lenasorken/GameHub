@@ -6,18 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>Create Account</title>
-  <link href="../css/styles.css" rel="stylesheet" />
-  <link href="../css/buttons/createaccount.css" rel="stylesheet" />
+  <link href="../styles.css" rel="stylesheet" />
 </head>
-</head>
+
 
 <body>
   <header>
-    <nav>
-      <ul class="back_button">
-        <a href="../index.html">Back</a></li>
-      </ul>
-    </nav>
+    <header>
+      <!--nav bar -->
+      <nav>
+          <a href="../index.html" class="logo_link">
+                  <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
+          </a>
+          <div class="navlinks">
+              <li id="nav"><a href="games.html">Games</a></li>
+              <li id="nav"><a href="search.html">Search</a></li>
+              <li id="nav"><a href="profile.html">Profile</a></li>
+              <li id="nav"><a href="checkout.html">Cart</a></li>
+         </div>
+      </nav>
   </header>
   <h1>Create Account</h1>
   <main class="createaccount">
@@ -28,22 +35,18 @@
       <form method="POST"></form>
       <div class="name">
         <label for="name">Name:</label>
-        <br>
         <input type="text" id="name" name="name" />
       </div>
       <div class="username">
         <label for="username">Username:</label>
-        <br>
         <input type="text" id="username" name="username">
       </div>
       <div class="email">
         <label for="email">E-mail:</label>
-        <br>
         <input type="email" id="email" name="Email">
       </div>
       <div class="confirm_email">
         <label for="email">Confirm E-mail:</label>
-        <br>
         <input type="confirmemail" id="confirmemail" name="Confirm E-mail">
         <div class="checkbox">
           <input type="checkbox" id="termsandconditions" name="termsandconditions">
@@ -52,7 +55,6 @@
       </div>
       <div class="password">
         <label for="password">Password</label>
-        <br>
         <input type="password" id="pass" name="password"/>
         <input type="submit" value="Sign up" class="signup"/>
       </div>
@@ -67,9 +69,7 @@
 
       <div class="select_game">
         <label for="game" class="game_name">Select game:</label>
-        <br>
       </div>
-      <br>
       <select id="Select-game" placeholder="select game.." class="game_select">
         <option value="Dark Souls">Dark Souls</option>
         <option value="Elder Scrolls">Elder Scrolls Online</option>
@@ -80,23 +80,16 @@
         <option value="SpellForce">SpellForce</option>
         <option value="Astroneer">Astroneer</option>
       </select>
-  
-      <br>
-      <br>
       <div class="price">
         <label for="price" class="name_price">Price:</label>
         <br>
       </div>
-      <br>
       <input type="number" min="0" max="1000" step="0.1" class="game_price" />
       <select name="currency" id="currency" class="currency">
         <option value="USD">$</option>
         <option value="NOK">NOK</option>
         <option value="EURO">€</option>
       </select>
-
-      <br>
-      <br>
 
       <input type="submit" value="Submit" class="submit">
 

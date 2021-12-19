@@ -4,87 +4,81 @@
 <head>
     <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
     <title>GameHub | Home</title>
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <script src="js/products.js" type="module"></script>
 
     <!-- Hotjar Tracking Code for https://infallible-noyce-689ea7.netlify.app -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:2747620,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<body>
-<header>
-    <!--nav bar -->
-    <nav>
-        <a href="index.html" id="logo">
-                <img src="/images/GameHub_Logo.png" alt="logo">
-        </a>
-        <div class="navlinks">
-            <li id="nav"><a href="../navbar/games.html">Games</a></li>
-            <li id="nav"><a href="../navbar/search.html">Search</a></li>
-            <li id="nav"><a href="../navbar/cart.html">Cart</a></li>
-            <li id="nav"><a href="../navbar/profile.html">Profile</a></li>
-       </div>
-    </nav>
-</header>
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 2747620,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
 </head>
-    <main>
-        <br>
+<body>
+    <header>
+        <!--nav bar -->
+        <nav>
+            <a href="index.html" class="logo_link">
+                <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
+            </a>
+            <div class="navlinks">
+                <li id="nav"><a href="../navbar/games.html">Games</a></li>
+                <li id="nav"><a href="../navbar/search.html">Search</a></li>
+                <li id="nav"><a href="../navbar/profile.html">Profile</a></li>
+                <li id="nav"><a href="checkout.html">Cart</a></li>
+            </div>
+        </nav>
+    </header>
 
-
-        <div class="featured">
-            <h1>Featured</h1>
+    <div class="home_page_featured">
+        <h1>Featured</h1>
+    </div>
+    <section class="home_page_games">
+		<div class="home__container_1">
+			<img id="home_game_box" src="images/games-outriders">
+			<img id="home_game_box" src="images/games-horizon">
+			<img id="home_game_box" src="images/games-astroneer">
+		</div>
+		<div class="home__container_2">
+			<img id="home_game_box" src="images/games-elderscrolls">
+			<img id="home_game_box" src="images/games-spellforce">
+			<a href="gamepage.html"><img id="home_game_box" src="images/games-darksouls"></a>
+		</div>
+	</section>
+    <footer>
+        <!-- buttons -->
+        <div class="index_footer">
+            <a href="buttons/createaccount.html">
+                <button name="createaccount_button" type="button" id="home_page_button_create">
+                    Create Account
+                </button>
+            </a>
+            <a href="buttons/launcher.html">
+                <button name="installlauncher_button" type="button" id="home_page_button_launcher">
+                    Install Launcher
+                </button>
+            </a>
+            <a href="buttons/contact.html">
+                <button name="contact_button" type="button" id="home_page_button_contact">
+                    Contact
+                </button>
+            </a>
         </div>
-
-        <div class="games">
-            <img src="images/games-outriders" alt="outriders" class="outriders" />
-            <img src="images/games-horizon" alt="horizon zero dawn" class="horizon">
-            <img src="images/games-astroneer" alt="astroneer" class="astroneer">
-            <img src="images/games-elderscrolls" alt="elder scrolls" class="elderscrolls">
-            <div><a href="gamepage.html">
-                    <img src="images/games-darksouls" alt="dark souls" class="darksouls"></a></div>
-            <img src="images/games-spellforce" alt="spellforce" class="spellforce">
-        </div>
-    </main>
-
+        <!-- buttons -->
+    </footer>
 </body>
-
-<hr style="height: 470px; visibility:hidden;" />
-<hr class="break" style="visibility: hidden;">
-
-<footer>
-
-    <!-- buttons -->
-
-    <a href="buttons/createaccount.html">
-        <button name="createaccount_button" type="button" class="button create_button">
-            Create Account
-        </button>
-    </a>
-
-    <a href="buttons/launcher.html">
-        <button name="installlauncher_button" type="button" class="button install_button">
-            Install Launcher
-        </button>
-    </a>
-
-    <a href="buttons/contact.html">
-        <button name="contact_button" type="button" class="button contact_button">
-            Contact
-        </button>
-    </a>
-    <!-- buttons -->
-
-    <br>
-
-</footer>

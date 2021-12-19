@@ -4,77 +4,77 @@
 <head>
   <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>GameHub | Checkout success</title>
-  <link href="css/styles.css" rel="stylesheet" />
-  <link href="css/checkoutsuccess.css" rel="stylesheet" />
+  <link href="styles.css" rel="stylesheet" />
 
   <!-- Hotjar Tracking Code for https://infallible-noyce-689ea7.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2747620,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 2747620,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<header>
-  <!--nav bar -->
-  <nav>
-      <a href="index.html" id="logo">
-              <img src="/images/GameHub_Logo.png" alt="logo">
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</head>
+
+<body>
+  <header>
+    <!--nav bar -->
+    <nav>
+      <a href="index.html" class="logo_link">
+          <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
       </a>
       <div class="navlinks">
           <li id="nav"><a href="../navbar/games.html">Games</a></li>
           <li id="nav"><a href="../navbar/search.html">Search</a></li>
-          <li id="nav"><a href="../navbar/cart.html">Cart</a></li>
           <li id="nav"><a href="../navbar/profile.html">Profile</a></li>
-     </div>
+          <li id="nav"><a href="checkout.html">Cart</a></li>
+      </div>
   </nav>
-</header>
-</head>
-
-<body>
-
-  <h1>Check out success</h1>
-  <div>
+  </header>
+  <div class="purchase_complete_text">
+    <h1>Checkout success</h1>
     <p>Thank you for your purchase!</p>
-    <hr class="line1">
     <p>The items below has been added to your library.</p>
   </div>
 
-  <section class="checkout_success_flex">
+  <hr class="line">
 
-    <div class="nier">
-      <img src="images/nier.png" class="checkoutimages">
+  <section class="checkout_page_success">
+
+    <div class="complete_nier">
+      <img src="images/nier.png" alt="complete_checkout_nier_image" id="complete_checkout_image">
       <p>NieR:Automata</p>
-      <p class="nier_price">$39.99</p>
+      <p id="complete_nier_price">$39.99</p>
     </div>
 
-    <hr class="line2">
+    <hr class="line1">
 
     </div>
-    <div class="days">
-      <img src="images/7daystodie.png" class="checkoutimages">
-      <p class="game_name_days">7_Days_to_Die</p>
-      <p class="days_price">$24.99</p>
+    <div class="complete_days">
+      <img src="images/7daystodie.png" alt="complete_checkout_days_img" id="complete_checkout_image">
+      <p id="complete_name_days">7 Days to Die</p>
+      <p id="complete_days_price">$24.99</p>
     </div>
 
-    <hr class="line3">
+    <hr class="line1">
 
-    <div class="total">
-      <p class="total_text">TOTAL:</p>
-      <p class="total_price">$64.98</p>
+    <div class="complete_total">
+      <p id="complete_total_text">TOTAL:</p>
+      <p id="complete_total_price">$64.98</p>
     </div>
-
-    <div class="total_mobile">
-      <p class="total_mobile_price">Total: $64.98</p>
-    </div>
-
   </section>
 </body>
 

@@ -4,132 +4,133 @@
 <head>
   <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>GameHub | Checkout</title>
-  <link href="css/styles.css" rel="stylesheet" />
-  <link href="css/checkout.css" rel="stylesheet" />
-  
+  <link href="../styles.css" rel="stylesheet" />
+
   <!-- Hotjar Tracking Code for https://infallible-noyce-689ea7.netlify.app -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2747620,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+  <script>
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () {
+        (h.hj.q = h.hj.q || []).push(arguments)
+      };
+      h._hjSettings = {
+        hjid: 2747620,
+        hjsv: 6
+      };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script');
+      r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
       a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
-<header>
-  <!--nav bar -->
-  <nav>
-      <a href="index.html" id="logo">
-              <img src="/images/GameHub_Logo.png" alt="logo">
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <!--nav bar -->
+    <nav>
+      <a href="index.html" class="logo_link">
+          <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
       </a>
       <div class="navlinks">
           <li id="nav"><a href="../navbar/games.html">Games</a></li>
           <li id="nav"><a href="../navbar/search.html">Search</a></li>
-          <li id="nav"><a href="../navbar/cart.html">Cart</a></li>
           <li id="nav"><a href="../navbar/profile.html">Profile</a></li>
-     </div>
+          <li id="nav"><a href="checkout.html">Cart</a></li>
+      </div>
   </nav>
-</header>
-
-</head>
-
-  <h1 class="checkout_header">Check Out</h1>
-</header>
-
-<body>
-  <section class="create">
-    <div class="nier">
-      <img src="images/nier.png" class="checkoutimages">
-      <p class="nier_name">NieR:Automata</p>
-      <p class="nier_price">$39.99</p>
+  </header>
+    <h1 id="checkout_header">CHECKOUT</h1>
+  <section class="checkout_cart">
+    <div class="checkout_game_nier">
+      <img src="images/nier.png" id="checkout_page_image" alt="checkout_page_image">
+      <p id="game_nier_name">NieR:Automata</p>
+      <p id="game_nier_price">$39.99</p>
     </div>
 
-    <hr class="line2">
-
-    </div>
-    <div class="days">
-      <img src="images/7daystodie.png" class="checkoutimages">
-      <p class="days_name"> 7 Days-to Die</p>
-      <p class="days_price">$24.99</p>
+    <hr class="checkout_line">
+    <div class="checkout_game_days">
+      <img src="images/7daystodie.png" id="checkout_page_image" alt="checkout_page_image">
+      <p id="days_name"> 7 Days-to Die</p>
+      <p id="days_price">$24.99</p>
     </div>
 
-    <hr class="line3">
+    <hr class="checkout_line">
 
-    <div class="total_mobile">
-      <p class="total_mobile_text">TOTAL:</p>
-      <p class="total_mobile_price">$64.98</p>
-    </div>
-
-    <div class="total">
-      <p class="total_text">TOTAL:</p>
-      <p class="total_price">$64.98</p>
+    <div class="checkout_page_total">
+      <p id="total_text">TOTAL:</p>
+      <p id="total_price">$64.98</p>
     </div>
   </section>
-  <br>
-  <section class="create2">
-
-    <p>Payment Method:</p>
-
-    <form class="pay">
-      <label>
-        <div class="payment_card">
-          <div class="credit_card">
-            <input type="checkbox" class="radio_credit" value="fooby[1][]" />Credit Card
-      </label>
-      <br>
-      <div pay_cards>
-        <img src="images/visa.png" class="paymentmethod">
-        <img src="images/mastercard.png" class="paymentmethod">
-        <img src="images/americanexpress.png" class="paymentmethod">
+  <hr class="checkout_line_2">
+  <section class="checkout_payment_method">
+      <div class="checkout_payment_credit">
+        <form>
+          <label id="payment_credit_heading" for="credit_checkbox">Credit/Debit Card:</label>
+          <input type="checkbox" id="credit_checkbox">
+        </form>
+        <img src="images/visa.png" alt="payment_visa_img" id="payment_visa_img">
+        <img src="images/mastercard.png" alt="payment_master_img" id="payment_master_img">
+        <img src="images/americanexpress.png" alt="payment_american_img" id="payment_american_img">
       </div>
+      <div class="payment_method_paypal">
+        <form>
+          <label id="payment_paypal_heading" for="paypal_checkbox">Paypal:</label>
+          <input type="checkbox" id="paypal_checkbox">
+        </form>
+        <img src="images/paypal.png" alt="payment_paypal_img" id="payment_paypal_img">
       </div>
-      <br>
-      <div class="paypal">
-        <label>
-          <input type="checkbox" class="radio_pay" value="fooby[1][]" />Paypal
-        </label>
-        <br>
-        <img src="images/paypal.png" class="paymentmethod_pay">
+      <div class="checkout_payment_information">
+        <form class="payment_info_holder">
+          <label id="payment_text_holder" for="payment_card_holder">Card Holder:</label>
+          <input type="text" id="payment_card_holder">
+        </form>
+        <label id="expire_date_text">Card Expire Date:</label>
+        <div class="payment_expire_date">
+          <div class="checkout_expire_month">
+            <label>Month</label>
+            <select name="expire_month">
+              <option value="january">01</option>
+              <option value="february">02</option>
+              <option value="march">03</option>
+              <option value="april">04</option>
+              <option value="may">05</option>
+              <option value="june">06</option>
+              <option value="july">07</option>
+              <option value="august">08</option>
+              <option value="september">09</option>
+              <option value="october">10</option>
+              <option value="november">11</option>
+              <option value="december">12</option>
+            </select>
+          </div>
+          <div class="checkout_expire_year">
+            <label>Year</label>
+            <select name=Year>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+              <option value="2023">2023</option>
+              <option value="2024">2024</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+            </select>
+          </div>
+        </div>
+        <form class="payment_info_account">
+          <label id="payment_text_number" for="payment_card_number">Card Number:</label>
+          <input type="tel" inputmode="numeric" id="payment_card_nummber">
+        </form>
+        <form class="payment_info_cvc">
+          <label id="payment_text_cvc" for="payment_card_cvc">CVC:</label>
+          <input type="password" id="payment_card_cvc">
+        </form>
+        <a href="checkoutsuccess.html"><button id="checkout_complete_button" >Checkout Complete</button></a>
       </div>
-      </div>
-    </form>
-    <br>
-    <br>
-    <form method="POST"></form>
-  <section class="payment_method">
-    <section class="cards">
-      <div class="cardholder">
-        <label for="name">Card Holder:</label>
-        <input type="text" id="card holder" name="card holder" class="cardholder" />
-      </div>
-      <br>
-      <div class="card_number">
-        <label for="name">Card Account No:</label>
-      </div>
-        <input type="text" id="card account no" name="card account no" class="card_number" />
-    </section>
-    <br>
-    <br>
-    <section class="cards_2">
-      <div class="card_expire">
-        <label for="name">Card Expire Date:</label>
-      </div>
-        <input type="text" id="name" name="name" class="card_expire"/>
-      <br>
-      <div class="cvc_box">
-      <br>
-        <label for="CVC">CVC:</label>
-      </div> 
-        <input type="text" id="CVC" name="CVC" class="cvc_box" />
-        <form action="checkoutsuccess.html">
-        <input type="submit" value="Checkout Complete" class="checkout_button">
-        <br>
   </section>
 </body>
 

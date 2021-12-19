@@ -1,0 +1,13 @@
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.product {
+    margin: 20px;
+    padding:20px;
+    border-radius: 20px 0px;
+
+}

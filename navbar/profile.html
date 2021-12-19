@@ -4,54 +4,60 @@
 <head>
   <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width-device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description"
     content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>GameHub | Account Page</title>
-  <link href="../css/styles.css" rel="stylesheet" />
-  <link href="../css/icons/profile.css" rel="stylesheet" />
+  <link href="../styles.css" rel="stylesheet" />
 </head>
 
 <body>
   <header>
     <!--nav bar -->
     <nav>
-        <a href="../index.html" id="logo">
-                <img src="/images/GameHub_Logo.png" alt="logo">
-        </a>
-        <div class="navlinks">
-            <li id="nav"><a href="games.html">Games</a></li>
-            <li id="nav"><a href="search.html">Search</a></li>
-            <li id="nav"><a href="cart.html">Cart</a></li>
-            <li id="nav"><a href="profile.html">Profile</a></li>
-       </div>
+      <a href="../index.html" class="logo_link">
+        <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
+      </a>
+      <div class="navlinks">
+        <li id="nav"><a href="games.html">Games</a></li>
+        <li id="nav"><a href="search.html">Search</a></li>
+        <li id="nav"><a href="profile.html">Profile</a></li>
+        <li id="nav"><a href="checkout.html">Cart</a></li>
+      </div>
     </nav>
-</header>
-  <header class="profile_header">
+  </header>
+  <section class="profile_main_header">
     <h1>ACCOUNT PAGE</h1>
     <p>@nametag</p>
-
-  </header>
-  <div>
-  <img src="../images/icon-profile.png" alt="profile" class="profile"></a>
+  </section>
+  <div class="profile_header_img">
+    <img src="../images/icon-profile.png" alt="profile" id="profile_header_img"></a>
   </div>
-  <br>
-  <main>
-    <div class="menu">    
-        <section>GAME LIBRARY</section>
-        <div>
-        <a href="../buttons/createaccount.html" alt="gamelisting" class="gamelisting">
-        <section>GAME LISTING</section></a>
+  <section class="profile_main_page">
+    <div class="profile_page_menu">
+      <div class="profile_page_button">
+        <label>GAME LIBRARY</label>
       </div>
-      <div>
-        <a href="../checkout.html" alt="checkout" class="checkout">
-        <section>PROCEED TO CHECKOUT</section></a>
+      <div class="profile_page_button">
+        <a href="../buttons/createaccount.html" alt="gamelisting" id="profile_button_listing">
+          <label>GAME LISTING</label></a>
       </div>
-        <section>EDIT PROFILE</section>
-        <section>MANAGE ACCOUNT</section>
-        <section>SETTINGS</section>
+      <div class="profile_page_button">
+        <a href="../checkout.html" alt="checkout" id="profile_button_checkout">
+          <label>PROCEED TO CHECKOUT</label></a>
+      </div>
+      <div class="profile_page_button">
+        <label>EDIT PROFILE</label>
+      </div>
+      <div class="profile_page_button">
+        <label>MANAGE ACCOUNT</label>
+      </div>
+      <div class="profile_page_button">
+        <label>SETTINGS</label>
+      </div>
     </div>
-  </main>
+  </section>
+</section>
 </body>
 
 </html>
