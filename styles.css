@@ -1,229 +1,242 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #313132;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #313132;
 }
 
 a:link {
-    color: #ffff;
-    text-decoration: none;
+  color: #ffff;
+  text-decoration: none;
 }
 
 a:visited {
-    color: #ffff;
-    text-decoration: none;
+  color: #ffff;
+  text-decoration: none;
 }
 
 a:hover {
-    color: #ffff;
-    text-decoration: underline;
+  color: #ffff;
+  text-decoration: underline;
 }
 
 a:active {
-    color: #ffff;
+  color: #ffff;
 }
 
 p {
-    color: #ffff;
+  color: #ffff;
 }
 
 /* Home Page */
 
 header {
-    background-color: #2a365e52;
-    width: 100%;
+  background-color: #2a365e52;
+  width: 100%;
 }
 
 nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 30%;
-    font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30%;
+  font-size: 20px;
 }
 
 .logo_link {
-    width: 15%;
-    margin: auto;
+  width: 15%;
+  margin: auto;
 }
 
 #logo_img {
-    width: 100%;
+  width: 100%;
 }
 
 .navlinks {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    gap: 20%;
-    margin: 0 auto;
-    list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20%;
+  margin: 0 auto;
+  list-style-type: none;
 }
 
 .home_page_featured {
-    display: flex;
-    justify-content: center;
-    color: #ffff;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  color: #ffff;
 }
 
 .home_page_games {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-left: 35%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 35%;
 }
 
 #home_game_box {
-    width: 15%;
-    border: 3px solid #ffff;
+  width: 15%;
+  border: 3px solid #ffff;
 }
 
 /* Icons */
 
 .index_footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4%;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  margin: 0 auto;
 }
 
 #home_page_button_create,
 #home_page_button_launcher,
 #home_page_button_contact {
-    background-color: #6fbf77;
-    color: #ffff;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 12px;
-    white-space: nowrap;
+  background-color: #6fbf77;
+  color: #ffff;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+  white-space: nowrap;
 }
 
 /* Game Page */
 
 .game_page_darksouls {
-    margin-top: 2%;
+  margin-top: 2%;
 }
 
 .game_souls_img,
 .game_page_tags,
 .game_button_all {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 80%;
-    gap: 2%;
-    margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  gap: 2%;
+  margin: auto;
 }
 
-.game_souls_img>img {
-    border: solid 2px white;
+.game_souls_img > img {
+  border: solid 2px white;
 }
 
 .game_button_all {
-    display: flex;
-    flex-direction: row;
-    margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 2%;
+}
+
+.cart {
+  display: flex;
+  margin-left: 90%;
+  width: 10%;
+  border: 1px solid black;
+  height: 100%;
+  text-align: center;
+}
+
+.cartImg > img {
+  width: 200px;
 }
 
 #souls_button_cart {
-    background-color: #6fbf77;
-    border: none;
-    color: #ffff;
-    text-decoration: none;
-    width: 100%;
-    font-size: 28px;
+  background-color: #6fbf77;
+  border: none;
+  color: #ffff;
+  text-decoration: none;
+  width: 100%;
+  font-size: 28px;
+}
+
+#souls_button_cart:hover {
+  box-shadow: 0 0 3px 3px #7aa77f;
 }
 
 #souls_button_price {
-    background-color: #949794;
-    border: none;
-    color: #ffff;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.5em;
+  background-color: #949794;
+  border: none;
+  color: #ffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.5em;
 }
 
 #usertags {
-    display: inline-block;
-    text-align: center;
-    padding: 5px;
-    background-color: rgb(83, 83, 83);
-    color: rgb(211, 209, 209);
-    border-radius: 10px;
-    width: 150px;
-    text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 5px;
+  background-color: rgb(83, 83, 83);
+  color: rgb(211, 209, 209);
+  border-radius: 10px;
+  width: 150px;
+  text-decoration: none;
 }
 
 .gamepage_game_bio {
-    color: #ffff;
-    font-size: 1.2em;
+  color: #ffff;
+  font-size: 1.2em;
 }
 
 /*   Reviews   */
 
 .game_review_container,
 .game_page_review {
-    border: 2px solid #ccc;
-    background-color: rgb(95, 94, 94);
-    border-radius: 1px;
-    padding: 10px;
-    color: #ffff;
+  border: 2px solid #ccc;
+  background-color: rgb(95, 94, 94);
+  border-radius: 1px;
+  padding: 10px;
+  color: #ffff;
 }
 
 .game_review_container {
-    display: flex;
-    max-width: 1700px;
-    max-height: 150px;
-    gap: 10px;
+  display: flex;
+  max-width: 1700px;
+  max-height: 150px;
+  gap: 10px;
 }
 
 .game_page_review {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #review_name {
-    font-size: 2em;
+  font-size: 2em;
 }
 
 #game_review_avatar {
-    max-width: 90px;
-    margin: auto 10px;
+  max-width: 90px;
+  margin: auto 10px;
 }
 
 h2 {
-    text-align: center;
-    color: #ffff;
-    text-transform: uppercase;
-    font-weight: lighter;
-    font-size: 2.5em;
-    font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffff;
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 2.5em;
 }
 
 #heading {
-    display: flex;
-    justify-content: center;
-    font-size: 25px;
-    color: #ffff;
-    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  color: #ffff;
 }
 
 .game_user_star {
-    text-align: center;
+  text-align: center;
 }
 
 #paragraph_reviews {
-    color: #ffff;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+  color: #ffff;
+  text-align: center;
 }
 
 /* Gamelist Page */
@@ -231,595 +244,600 @@ h2 {
 /* Games */
 
 .list_main_page {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #buttons_games {
-    color: #ffff;
-    background-color: rgba(0, 0, 128, 0.398);
-    text-decoration: none;
-    border-radius: 30px;
-    font-style: italic;
-    font-size: 20px;
-    width: 10%;
+  color: #ffff;
+  background-color: rgba(0, 0, 128, 0.398);
+  text-decoration: none;
+  border-radius: 30px;
+  font-style: italic;
+  font-size: 20px;
+  width: 10%;
 }
 
 .games_button_category {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 2%;
-    text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  text-align: center;
 }
 
 .games_page_container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: auto;
-    width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 50%;
 }
 
 .game_list_outrider {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
-.game_list_outrider>img {
-    width: 30%;
-    border: solid 5px #ccc;
+.game_list_outrider > img {
+  width: 30%;
+  border: solid 5px #ccc;
 }
 
-.game_list_outrider>p {
-    width: 50%;
-    font-size: 20px;
+.game_list_outrider > p {
+  width: 50%;
+  font-size: 20px;
 }
 
 .game_list_horizon {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
-.game_list_horizon>img {
-    width: 30%;
-    border: solid 5px #ccc;
+.game_list_horizon > img {
+  width: 30%;
+  border: solid 5px #ccc;
 }
 
-.game_list_horizon>p {
-    width: 50%;
-    font-size: 20px;
+.game_list_horizon > p {
+  width: 50%;
+  font-size: 20px;
 }
 
 .game_list_souls {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
-.game_list_souls>a {
-    width: 30%;
-    border: solid 5px #ccc;
+.game_list_souls > a {
+  width: 30%;
+  border: solid 5px #ccc;
 }
 
-#list_link_souls>img {
-    width: 100%;
+#list_link_souls > img {
+  width: 100%;
 }
 
-.game_list_souls>p {
-    width: 50%;
-    font-size: 20px;
+.game_list_souls > p {
+  width: 50%;
+  font-size: 20px;
 }
 
 .game_list_elder {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
-.game_list_elder>img {
-    width: 30%;
-    border: solid 5px #ccc;
+.game_list_elder > img {
+  width: 30%;
+  border: solid 5px #ccc;
 }
 
-.game_list_elder>p {
-    width: 50%;
-    font-size: 20px;
+.game_list_elder > p {
+  width: 50%;
+  font-size: 20px;
 }
 
 .line {
-    width: 1300px;
-    opacity: 0.2;
+  width: 1300px;
+  opacity: 0.2;
 }
 
 /* Launcher */
 
 .gamehub_logo {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 560px;
-    height: 340px;
-    max-width: 1000px;
-    display: block;
-    text-transform: uppercase;
-    color: #ffff;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 560px;
+  height: 340px;
+  max-width: 1000px;
+  display: block;
+  text-transform: uppercase;
+  color: #ffff;
 }
 
 .download_launcher {
-    text-align: center;
+  text-align: center;
 }
 
 .back_button {
-    margin-left: 100px;
-
+  margin-left: 100px;
 }
 
 /* Contact page */
 
 .contact_main_page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .all_button {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: 40%;
-    gap: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 40%;
+  gap: 10px;
 }
 
 .game_button,
 .account_button,
 .purchase_button {
-    display: flex;
-    justify-content: center;
-    height: auto;
+  display: flex;
+  justify-content: center;
+  height: auto;
 }
 
 #game_button,
 #account_button,
 #purchase_button {
-    background-color: #1f1f1f;
-    border: none;
-    width: 90%;
-    height: auto;
-    color: #ffff;
-    font-size: 23px;
-    text-transform: uppercase;
+  background-color: #1f1f1f;
+  border: none;
+  width: 90%;
+  height: auto;
+  color: #ffff;
+  font-size: 23px;
+  text-transform: uppercase;
 }
 
-.contact_form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: auto;
-    margin: 0 auto;
-    flex-direction: column;
+#contact_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact_form > input {
-    color: black;
+  color: black;
+}
+
+.contact_form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+}
+
+.contact_subject {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_message {
+  display: flex;
+  flex-direction: column;
+  width: 9%;
+}
+
+.submit {
+  display: flex;
+  width: 7%;
+  margin-top: 1%;
+  background-color: #29aa29;
+  border: none;
+  color: #ffff;
 }
 
 /* Checkout */
 
 .checkout_cart {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .checkout_game_nier {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 5%;
-    width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5%;
+  width: 25%;
 }
 
 .checkout_game_days {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 5%;
-    width: 25%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5%;
+  width: 25%;
 }
 
 .checkout_page_total {
-    display: flex;
-    flex-direction: row;
-    gap: 5%;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
 }
 
 .checkout_line {
-    opacity: 20%;
-    width: 20%;
-    color: #fefefe;
+  opacity: 20%;
+  width: 20%;
+  color: #fefefe;
 }
 
 .checkout_payment_method {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .checkout_payment_credit {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-bottom: 1%;
-    gap: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1%;
+  gap: 2%;
 }
 
-.checkout_payment_credit>img {
-    width: 10%;
+.checkout_payment_credit > img {
+  width: 10%;
 }
 
 .payment_method_paypal {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2%;
-    margin-bottom: 1%;
-    margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+  margin-bottom: 1%;
+  margin-right: 5%;
 }
 
-.payment_method_paypal>img {
-    width: 30%;
+.payment_method_paypal > img {
+  width: 30%;
 }
 
 .checkout_payment_information {
-    display: flex;
-    flex-direction: row;
-    width: 20%;
-    gap: 5%;
-    justify-content: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  width: 20%;
+  gap: 5%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .payment_info_holder,
 .payment_info_account,
 .payment_info_cvc {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
 }
 
 #expire_date_text {
-    width: 90%;
+  width: 90%;
 }
 
 .payment_expire_date {
-    display: flex;
-    flex-direction: row;
-    width: 90%;
-    gap: 2%;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  gap: 2%;
 }
 
 .checkout_expire_month,
 .checkout_expire_year {
-    width: 50%;
+  width: 50%;
 }
 
 .checkout_expire_month select,
 .checkout_expire_year select {
-    width: 100%;
+  width: 100%;
 }
 
 #checkout_complete_button {
-    background-color: #6fbf77;
-    border: solid 1px;
-    color: #5e5e5e;
-    text-decoration: none;
-    font-size: 16px;
-    border-radius: 12px;
-    width: 90%;
-    height: auto;
+  background-color: #6fbf77;
+  border: solid 1px;
+  color: #5e5e5e;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 12px;
+  width: 90%;
+  height: auto;
 }
-
-
 
 /* Checkout Success */
 
 .purchase_complete_text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .checkout_page_success {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
 }
 
 .complete_nier {
-    display: flex;
-    align-items: center;
-    gap: 10%;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  justify-content: center;
 }
 
 .complete_days {
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-    gap: 10%;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 10%;
+  justify-content: center;
 }
 
 .complete_total {
-    display: flex;
-    align-items: center;
-    gap: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10%;
 }
 
 .line1 {
-    align-items: center;
-    margin: auto;
-    width: 70%;
-    opacity: 20%;
-    margin-top: 2%;
-    margin-bottom: 2%;
+  align-items: center;
+  margin: auto;
+  width: 70%;
+  opacity: 20%;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 /* Create Account */
 
 h1,
 h2 {
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: #ffff;
-    text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+  color: #ffff;
+  text-transform: uppercase;
 }
 
 .account_h1 {
-    text-align: center;
-    color: #fefefe;
-    font-weight: lighter;
-    padding-bottom: 50px;
+  text-align: center;
+  color: #fefefe;
+  font-weight: lighter;
+  padding-bottom: 50px;
 }
 
 /*   Create Account   */
 
-.create {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: rgb(129, 129, 129);
-    max-width: 490px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 100px 10px 100px;
-    max-height: 1000px;
+.create_main_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.name,
-.username,
-.password,
-.email,
-.confirm_email {
-    height: 100px;
-    flex: 50%;
-    color: #fefefe;
-    font-weight: lighter;
+.create_account_page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 30%;
+  height: auto;
+  background-color: #949794;
+  gap: 10%;
 }
 
-.password {
-    margin-right: 370px;
+.create_account_container_1 {
+  display: flex;
+  gap: 10%;
+  margin-top: 2%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
-.checkbox {
-    margin-top: 30px;
-    max-width: 140px;
+.create_account_container_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20%;
 }
 
-.list_game {
-    text-align: center;
-    color: #fefefe;
-    font-weight: lighter;
-    padding-top: 50px;
-    padding-bottom: 50px;
+.email {
+  display: flex;
+  flex-direction: column;
 }
 
-/*   List Game   */
-
-.select {
-    background-color: rgb(129, 129, 129);
-    max-width: 490px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 100px 10px 100px;
-    max-height: 1000px;
+.create_email {
+  display: flex;
+  flex-direction: column;
 }
 
-.game_name {
-    color: #fefefe;
-    max-width: 150px;
+.create_account_container_3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10%;
 }
 
-.game_select {
-    max-width: 150px;
+.create_password {
+  display: flex;
+  flex-direction: column;
 }
 
-.game_name,
-.game_price,
-.game_select,
-.name_price,
-.submit {
-    margin-left: 150px;
-    margin-right: auto;
-
+.create_checkbox {
+  width: 25%;
 }
 
-.game_select {
-    width: 200px;
-    height: 25px;
+.create_signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 20%;
+  background-color: #29aa29;
+  border: none;
+  color: #ffff;
 }
 
-.name_price {
-    color: #fefefe;
+.sell_select {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #949794;
+  width: 30%;
+  color: white;
 }
 
-.submit {
-    max-width: 70px;
+.sell_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
 }
 
-.currency,
-.game_price {
-    max-width: 50px;
+.sell_container > input {
+  width: 35%;
 }
 
-/*   Button   */
-
-.submit {
-    background-color: #29aa29;
-    border: none;
-    color: #ffff;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    display: block-inline;
+.sell_button_submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: white;
+  font-size: 20px;
+  background-color: #29aa29;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
-.signup {
-    background-color: #4fce4f;
-    border: none;
-    width: 100px;
-    color: #ffff;
-    padding: 5px 15px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.4em;
-}
-
-.back_button {
-    background-color: #5e5e5e;
-    width: 100px;
-    color: #ffff;
-    padding: 5px 15px;
-    text-align: center;
-    font-size: 1.4em;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-left: 100px;
-}
-
-a:link {
-    text-decoration: none;
-    color: #ffff;
+.footer_sell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
 }
 
 /* Launcher */
 
 .download_launcher {
-    text-align: center;
+  text-align: center;
 }
 
 /* Search */
 
 #search_topic {
-    font-size: 1.5em;
-    color: #fefefe;
-    font-weight: lighter;
-    align-items: center;
-    margin-bottom: 2%;
+  font-size: 1.5em;
+  color: #fefefe;
+  font-weight: lighter;
+  align-items: center;
+  margin-bottom: 2%;
 }
 
 #search_searchbar {
-    width: 10%;
+  width: 10%;
 }
 
 .search_page {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Profile */
 
 .profile {
-    display: flex;
-    margin-left: 847px;
-    width: 180px;
-    height: 180px;
-
+  display: flex;
+  margin-left: 847px;
+  width: 180px;
+  height: 180px;
 }
 
 .profile_header_img {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .profile_main_page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
 }
 
 .profile_page_button > label {
-    color: white;
+  color: white;
 }
 
 #profile_button_listing > label {
-    color: white;
+  color: white;
 }
 
 #profile_button_checkout > label {
-    color: white;
+  color: white;
 }
 
 .profile_page_menu {
-    width: 50%;
-    flex-wrap: wrap;
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+  width: 50%;
+  flex-wrap: wrap;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
 
 .profile_page_button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1E1E1E;
-    width: 100%;
-    height: 100%;
-    color: #ffff;
-    font-size: 20px;;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    border: 0.1px solid #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 100%;
+  color: #ffff;
+  font-size: 20px;
+  font-weight: normal;
+  border: 0.1px solid #ffff;
 }
 
 .profile_main_header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }

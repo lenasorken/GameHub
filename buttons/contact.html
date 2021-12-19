@@ -8,6 +8,7 @@
         content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
     <title>GameHub | Contact</title>
     <link href="../styles.css" rel="stylesheet" />
+    <link href="../media.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
     <script src="../js/contact.js"></script>
     
@@ -60,18 +61,22 @@
     </section>
     <hr class="line">
  
-    <form action="https://formspree.io/f/lena_sorken@hotmail.com" method="post">
+    <p id="contact_form">
+        Or send us an e-mail:
+    </p>
+
+    <form class="contact_form_container" action="https://formspree.io/f/xyyoyvlo" method="post">
         <label class="contact_e-mail">
             E-mail
+            <input type="email" name="email" class="email"/>
         </label>
-        <input type="email" class="email"/>
         <label class="contact_subject">
             Subject
-            <input type="subject" class="subject"/>
+            <input type="subject" name="subject" class="subject"/>
         </label>
-        <label>
+        <label class="contact_message">
             Message
-            <textarea class="message"></textarea>
+            <textarea name="message" class="message"></textarea>
         </label>
         <div class="status">
         

@@ -9,6 +9,8 @@
         content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
     <title>GameHub | Dark Souls</title>
     <link href="styles.css" rel="stylesheet" />
+    <link href="media.css" rel="stylesheet" />
+    <script src="js/cart.js"></script>
 
     <!-- Hotjar Tracking Code for https://infallible-noyce-689ea7.netlify.app -->
     <script>
@@ -44,6 +46,18 @@
             </div>
         </nav>
     </header>
+
+
+
+    <!---Cart -->
+    <div class="cart" id="cart">
+        <div class="title">Cart</div><hr/>
+        <div id="title"></div>
+    </div>
+
+
+
+
     <!--- Dark Souls game  --->
     <section class="game_page_darksouls">
         <div class="game_souls_img">
@@ -67,14 +81,16 @@
                         $ 39.99
                     </button>
                     </a>
-                    <a href="checkout.html">
-                        <button name="Add to cart" type="button" id="souls_button_cart">
+                  <!--<a href="checkout.html">--->  
+                        <button onclick="addToCart(1)" name="Add to cart" type="button" id="souls_button_cart">
                             Add to cart
-                        </button>
+                        </button>     
                     </a>
                 </div>
             </div>
         </div>
+
+
 
     </main>
     <!--- reviews  --->

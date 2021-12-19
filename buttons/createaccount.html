@@ -7,70 +7,69 @@
   <meta name="description" content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>Create Account</title>
   <link href="../styles.css" rel="stylesheet" />
+  <link href="../media.css" rel="stylesheet" />
 </head>
 
 
 <body>
   <header>
-    <header>
       <!--nav bar -->
       <nav>
           <a href="../index.html" class="logo_link">
                   <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
           </a>
           <div class="navlinks">
-              <li id="nav"><a href="games.html">Games</a></li>
-              <li id="nav"><a href="search.html">Search</a></li>
-              <li id="nav"><a href="profile.html">Profile</a></li>
-              <li id="nav"><a href="checkout.html">Cart</a></li>
+              <li id="nav"><a href="../navbar/games.html">Games</a></li>
+              <li id="nav"><a href="../navbar/search.html">Search</a></li>
+              <li id="nav"><a href="../navbar/profile.html">Profile</a></li>
+              <li id="nav"><a href="../navbar/checkout.html">Cart</a></li>
          </div>
       </nav>
   </header>
-  <h1>Create Account</h1>
-  <main class="createaccount">
-    <div class="account_h1">
-
-    </div>
-    <section class="create">
-      <form method="POST"></form>
-      <div class="name">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" />
-      </div>
-      <div class="username">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username">
-      </div>
-      <div class="email">
-        <label for="email">E-mail:</label>
-        <input type="email" id="email" name="Email">
-      </div>
-      <div class="confirm_email">
-        <label for="email">Confirm E-mail:</label>
-        <input type="confirmemail" id="confirmemail" name="Confirm E-mail">
-        <div class="checkbox">
-          <input type="checkbox" id="termsandconditions" name="termsandconditions">
-          <label for="email-updates">I agree to the terms and conditions and the privacy policy.</label>
+  <main class="create_main_page">
+    <h1>Create Account</h1>
+    <section class="create_account_page">
+      <section class="create_account_container_1">
+        <form method="POST"></form>
+        <div class="name">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" />
         </div>
+        <div class="username">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username">
+        </div>
+      </section>
+      <section class="create_account_container_2">
+        <div class="email">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="Email">
+        </div>
+        <div class="create_email">
+          <label for="confirm_email">Confirm E-mail:</label>
+          <input type="confirm_email" id="confirm_email" name="Confirm E-mail">
+        </div>
+      </section>
+      <section class="create_account_container_3">
+        <div class="create_password">
+          <label for="password">Password</label>
+          <input type="password" id="pass" name="password"/>
+        </div>
+      <div class="create_checkbox">
+        <input type="checkbox" id="termsandconditions" name="termsandconditions">
+        <label for="email-updates">I agree to the terms and conditions and the privacy policy.</label>
       </div>
-      <div class="password">
-        <label for="password">Password</label>
-        <input type="password" id="pass" name="password"/>
-        <input type="submit" value="Sign up" class="signup"/>
-      </div>
-      </form>
+      </section>
+      <input type="submit" value="Sign up" class="create_signup"/>
     </section>
-
     <div class="list_game">
       <h2>List game for sale</h2>
     </div>
-
-    <div class="select">
-
-      <div class="select_game">
+    <div class="sell_select">
+      <div class="sell_select_game">
         <label for="game" class="game_name">Select game:</label>
       </div>
-      <select id="Select-game" placeholder="select game.." class="game_select">
+      <select id="sell_select-game" placeholder="select game.." class="game_select">
         <option value="Dark Souls">Dark Souls</option>
         <option value="Elder Scrolls">Elder Scrolls Online</option>
         <option value="Horizon Zero Dawn">Horizon Zero Dawn</option>
@@ -80,23 +79,21 @@
         <option value="SpellForce">SpellForce</option>
         <option value="Astroneer">Astroneer</option>
       </select>
-      <div class="price">
+      <div class="sell_price">
         <label for="price" class="name_price">Price:</label>
-        <br>
       </div>
-      <input type="number" min="0" max="1000" step="0.1" class="game_price" />
-      <select name="currency" id="currency" class="currency">
-        <option value="USD">$</option>
-        <option value="NOK">NOK</option>
-        <option value="EURO">€</option>
-      </select>
-
-      <input type="submit" value="Submit" class="submit">
+      <div class="sell_container">
+        <input type="number" min="0" max="1000" step="0.1" class="game_price" />
+        <select name="currency" id="sell_currency" class="currency">
+          <option value="USD">$</option>
+          <option value="NOK">NOK</option>
+          <option value="EURO">€</option>
+        </select>
+      </div>
+      <input type="submit" value="Submit" class="sell_button_submit">
 
     </div>
-    <br>
   </main>
-  <footer>Copyright &copy;</footer>
+  <footer class="footer_sell">Copyright &copy;</footer>
 </body>
-
 </html>
