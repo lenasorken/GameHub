@@ -312,7 +312,7 @@ h2 {
   font-size: 20px;
 }
 
-.game_list_souls {
+.game_list {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -320,7 +320,7 @@ h2 {
   gap: 5%;
 }
 
-.game_list_souls > a {
+.game_list > a {
   width: 30%;
   border: solid 5px #ccc;
 }
@@ -329,7 +329,7 @@ h2 {
   width: 100%;
 }
 
-.game_list_souls > p {
+.game_list > p {
   width: 50%;
   font-size: 20px;
 }

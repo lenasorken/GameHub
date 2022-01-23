@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/4407e7a12f.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
+    <title>GameHub | Dark Souls</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="media.css" rel="stylesheet" />
+    <script src="js/cart.js"></script>
+
+    <!-- Hotjar Tracking Code for https://infallible-noyce-689ea7.netlify.app -->
+    <script>
+        (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 2747620,
+                hjsv: 6
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+</head>
+
+<body>
+    <header>
+        <!--nav bar -->
+        <nav>
+            <a href="index.html" class="logo_link">
+                <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
+            </a>
+            <div class="navlinks">
+                <li id="nav"><a href="../navbar/games.html">Games</a></li>
+                <li id="nav"><a href="../navbar/search.html">Search</a></li>
+                <li id="nav"><a href="../navbar/profile.html">Profile</a></li>
+                <li id="nav"><a href="checkout.html">Cart</a></li>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!---Cart -->
+    <div class="cart" id="cart">
+        <div class="title">Cart</div><hr/>
+        <div id="title"></div>
+    </div>
+
+
+
+
+    <!--- Dark Souls game  --->
+    <section class="game_page_darksouls">
+        <div class="game_souls_img">
+            <img src="images/games-outriders" alt="dark souls" id="game_souls_img" />
+
+            <div class="gamepage_game_bio">
+                <h1>Outriders</h1>
+                <p>Outriders’ brutal and bloody combat combines frenetic gunplay</p>
+                <p>violent powers and deep RPG systems to create a true genre hybrid.</p>
+                </p>
+                <div class="game_page_tags">
+                    <section><a href="" id="usertags">RPG</a></section>
+                    <section><a href="" id="usertags">Dark Fantasy</a></section>
+                    <section><a href="" id="usertags">Difficult</a></section>
+                    <section><a href="" id="usertags">Action</a></section>
+                </div>
+                <div class="game_button_all">
+                    <button name="price" type="button" id="souls_button_price">
+                        NOK 354
+                    </button>
+                    </a>
+                  <!--<a href="checkout.html">--->  
+                        <button onclick="addToCart(1)" name="Add to cart" type="button" id="souls_button_cart">
+                            Add to cart
+                        </button>     
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <!--- reviews  --->
+    <h2>Reviews</h2>
+    <label id="heading">User Rating</label>
+    <div class="game_user_star">
+        <span id="fa fa-star checked"></span>
+        <span id="fa fa-star checked"></span>
+        <span id="fa fa-star checked"></span>
+        <span id="fa fa-star checked"></span>
+        <span id="fa fa-star checked"></span>
+        <span id="fa fa-star checked"></span>
+        <span id="fa fa-star"></span>
+    </div>
+    <p id="paragraph_reviews">4.1 average based on 25 reviews.</p>
+    <section class="game_page_review">
+        <div class="game_review_container">
+            <img src="images/man.png" alt="Avatar" id="game_review_avatar">
+            <div>
+                <p id="review_name">John</p>
+                <p id="review_text">Best game ever. 10/10</p>
+            </div>
+        </div>
+        <div class="game_review_container">
+            <img src="images/young-woman (1).png" alt="Avatar" id="game_review_avatar">
+            <div>
+                <p id="review_name">Susie</p>
+                <p id="review_text">It's outriders. what else is there to say?</p>
+            </div>
+        </div>
+        <div class="game_review_container">
+            <img src="images/man.png" alt="Avatar" id="game_review_avatar">
+            <div>
+                <p id="review_name">Peter</p>
+                <p id="review_text">prepare to shoot a lot!</p>
+            </div>
+        </div>
+        <div class="game_review_container">
+            <img src="images/man.png" alt="Avatar" id="game_review_avatar">
+            <div>
+                <p id="review_name">Noah</p>
+                <p id="review_text">I was stupid to buy this game. Could be fun if you like dying all the time and
+                    getting frustrated constantly</p>
+            </div>
+        </div>
+        <div class="game_review_container">
+            <img src="images/man.png" alt="Avatar" id="game_review_avatar">
+            <div>
+                <p id="review_name">Patrick</p>
+                <p id="review_text">go buy it rn!</p>
+            </div>
+        </div>
+        <div class="game_review_container">
+            <img src="images/young-woman (1).png" alt="Avatar" id="game_review_avatar">
+            <div>
+                <p id="review_name">Lily</p>
+                <p id="review_text">I love it!</p>
+            </div>
+        </div>
+    </section>    
+    <footer class="review_container_bottom">
+        <div>Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/"
+                title="Flaticon">www.flaticon.com</a></div>
+    </footer>
+</body>
+</html>
