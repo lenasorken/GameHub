@@ -1,4 +1,4 @@
-const url = "http://lfs.one/gamehub/wp-json/wc/store/products";
+const url = "https://lfs.one/gamehub/wp-json/wc/store/products";
 const productsContainer = document.querySelector(".games_page_container");
 
 
