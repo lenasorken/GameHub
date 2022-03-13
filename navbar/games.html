@@ -8,8 +8,8 @@
   <meta name="description"
     content="GameHub is an online shop with a huge range of computer games. Purchase new or used games, and even pre-order the newest games today!" />
   <title>GameHub | List of Games</title>
-  <link href="../styles.css" rel="stylesheet" />
-  <link href="../media.css" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css"/>
+  <link rel="stylesheet" href="../media.css"/>
 </head>
 
 <body>
@@ -17,14 +17,14 @@
     <!--nav bar -->
     <nav>
         <a href="../index.html" class="logo_link">
-                <img src="/images/GameHub_Logo.png" alt="logo" id="logo_img">
+                <img src="../images/GameHub_Logo.png" alt="logo" id="logo_img">
         </a>
         <div class="navlinks">
-            <li id="nav"><a href="games.html">Games</a></li>
-            <li id="nav"><a href="search.html">Search</a></li>
-            <li id="nav"><a href="profile.html">Profile</a></li>
-            <li id="nav"><a href="../checkout.html">Cart</a></li>
-       </div>
+          <li id="nav"><a href="games.html">Games</a></li>
+          <li id="nav"><a href="search.html">Search</a></li>
+          <li id="nav"><a href="profile.html">Profile</a></li>
+          <li id="nav"><a href="../html/checkout.html">Cart</a></li>
+        </div>
     </nav>
   </header>
   <div>
@@ -47,10 +47,18 @@
       </button>
     </div>
 
+    <!-- I was able to fetch the images and display them, but they we're not displayed in correct order.
+    Also to display the images i needed to remove the "Try, Catch" statements from the script so no images will be shown.
+    Not sure why this issues occured. -->
     <section class="games_page_container">
-      <hr class="line">
+      Loading...
     </section>
   </main>
   <script src="../js/api.js"></script>
+  <script src="../js/error/error.js"></script>
+  <footer class="review_container_bottom">
+    <div>Icons made by <a href="" title="Vitaly Gorbachev">Vitaly Gorbachev</a> from <a href="https://www.flaticon.com/"
+            title="Flaticon">www.flaticon.com</a></div>
+</footer>
 </body>
 </html>
